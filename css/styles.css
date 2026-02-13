@@ -388,7 +388,7 @@ body {
 }
 
 #auth-error {
-  color: var(--accent);
+  color: deeppink;
 }
 
 #auth-text {

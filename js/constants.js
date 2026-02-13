@@ -1,4 +1,4 @@
-export const HASH = '28cec9571964bc335350d833a3e847d5186b56c9cfb1cec3445587b7bdc2a78a';
+export const HASH = '8cec9571964bc335350d833a3e847d5186b56c9cfb1cec3445587b7bdc2a78';
 export const MAIN_LANG = 'de';
 export const MAIN_PAGE = 'home';
 export const ERROR_PAGE = '404';

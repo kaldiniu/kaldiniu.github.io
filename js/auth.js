@@ -17,7 +17,7 @@ export function isAuth() {
 export async function login(password) {
   const hash = await hashString(password);
 
-  if (hash === HASH) {
+  if (hash === '2' + HASH + 'a') {
     localStorage.setItem(AUTH_KEY, 'true');
     return true;
   }
