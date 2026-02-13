@@ -8,7 +8,7 @@ export const LEGAL_PAGE = 'legal';
 export const AUTH_KEY = 'isAuth';
 export const LANG_KEY = 'lang';
 export const PROTECTED_PAGES = [
-    //'home';
+    'home',
     'resume',
     'documents',
     'contacts',

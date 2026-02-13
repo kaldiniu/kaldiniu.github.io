@@ -17,8 +17,8 @@ export function renderAuth() {
               <p id="auth-text">${t('auth.text')}</p>
               <form id="auth-form">
                 <input type="password" id="auth-password" placeholder="${t('auth.password')}" required><button type="submit" class="login-btn button" aria-label="Log in">${t('auth.submit')}</button>
+                <p id="auth-error"></p>
               </form>
-              <p id="auth-error"></p>
             </div>
           </div>
         </div>
