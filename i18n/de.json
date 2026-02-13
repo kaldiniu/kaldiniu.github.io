@@ -1,0 +1,111 @@
+{
+  "mydata": {
+    "email": "<b>E-Mail:</b> iurii@gmail.com",
+    "country": "<b>Land:</b> Deutschland",
+    "city": "<b>Stadt:</b> Gelsenkirchen",
+    "street": "<b>Straße:</b> Wiehagen 18",
+    "telegram": "<b>Telegram:</b> @iurii",
+    "whatsup": "<b>WhatsUp:</b> +49 (160) 1234567",
+    "logo": "KALD<b>IN</b><i>RII</i><br><b>IU</b>RII",
+    "logo-alt": "IN<br>IU"
+  },
+  "auth": {
+    "title": "Zugriff eingeschränkt",
+    "password": "Passwort eingeben",
+    "submit": "Anmelden",
+    "text": "Geben Sie das Passwort ein, das Ihnen zusammen mit dem Website-Link per E-Mail zugesandt wurde.<br>Nach Eingabe des Passworts können Sie meine Informationen einsehen und meinen Lebenslauf herunterladen.",
+    "error": "Falsches Passwort",
+    "logout": "Abmelden"
+  },
+  "menu": {
+    "home": "Startseite",
+    "resume": "Lebenslauf",
+    "contacts": "Kontakt",
+    "documents": "Dokumente",
+    "legal": "Impressum",
+    "privacy": "Datenschutz"
+  },
+  "breadcrumbs": {
+    "home": "",
+    "resume": "Lebenslauf",
+    "contacts": "Kontakt",
+    "documents": "Dokumente",
+    "legal": "Impressum",
+    "privacy": "Datenschutz",
+    "404": "Seite nicht gefunden"
+  },
+  "popup": {
+    "button": "Wo findet man die Wahrheit?",
+    "content": "Die Wahrheit findet sich nur an einem Ort:<br><b>Im Code</b>!",
+    "close": "Schließen"
+  },
+  "footer": {
+    "text": "KI"
+  },
+  "head": {
+    "home": {
+      "title": "Lebenslauf und Portfolio des Entwicklers in Deutschland",
+      "meta-description": "Lebenslauf und Portfolio des Entwicklers in Deutschland"
+    },
+    "resume": {
+      "title": "Lebenslauf"
+    },
+    "contacts": {
+      "title": "Kontakt"
+    },
+    "documents": {
+      "title": "Dokumente"
+    },
+    "404": {
+      "title": "404 Fehler",
+      "meta-description": "404 Fehler - diese Seite existiert nicht"
+    },
+    "legal": {
+      "title": "Impressum"
+    },
+    "privacy": {
+      "title": "Datenschutzerklärung"
+    },
+    "meta-author": "KI"
+  },
+  "home-page": {
+    "h1": "HOMEPAGE",
+    "typetext": "ich bin Anwendungsentwickler",
+    "text": "Hallo,"
+  },
+  "resume-page": {
+    "h1": "Lebenslauf",
+    "text": "Hier finden Sie Informationen zu meinem Werdegang, meiner Berufserfahrung und meinen fachlichen Fähigkeiten"
+  },
+  "contacts-page": {
+    "h1": "Kontaktinformationen"
+  },
+  "documents-page": {
+    "h1": "Dokumente",
+    "diplom-bachelor": "Bachelor-Diplom",
+    "diplom-specialist": "Spezialisten-Diplom",
+    "diplom-bachelor-zab": "Bewertung des Bachelor-Diploms",
+    "diplom-specialist-zab": "Bewertung des Spezialisten-Diploms",
+    "certificate-b1": "Integrationskurs (Deutsch B1)",
+    "certificate-b2": "Berufssprachkurs (Deutsch B2)",
+    "authority-diplom": "KhNUVD",
+    "authority-zab": "ZAB",
+    "authority-b1": "AWO",
+    "authority-b2": "Re/init",
+    "city-diplom": "Charkiw (Ukraine)",
+    "city-zab": "Bonn (Deutschland)",
+    "city-certificate": "Gelsenkirchen (Deutschland)"
+  },
+  "not-found": {
+    "h1": "404",
+    "text": "Versuchen Sie, zur Startseite der Website zu wechseln"
+  },
+  "legal-page": {
+    "h1": "Impressum",
+    "text": "<p>Angaben gemäß § 5 TMG</p><p>Iurii Kaldin<br>45879 Gelsenkirchen<br>Deutschland</p><p>Kontakt:<br>E-Mail: deine@email.de</p><p>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br>Iurii Kaldin</p>"
+  },
+  "privacy-page": {
+    "h1": "Datenschutz",
+    "text": "<h2>Hosting</h2><p>Diese Website wird über GitHub Pages (GitHub Inc., USA) gehostet. Beim Besuch werden automatisch Server-Logfiles verarbeitet (z. B. IP-Adresse, Zeitpunkt, Browser).</p><p>Rechtsgrundlage: Art. 6 Abs. 1 lit. f DSGVO.</p><h2>Cookies</h2><p>Diese Website verwendet keine Cookies.</p><h2>Externe Dienste</h2><p>Es werden keine externen Dienste oder Tracking-Tools verwendet.</p>"
+  }
+}

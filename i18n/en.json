@@ -1,0 +1,111 @@
+{
+  "mydata": {
+    "email": "<b>E-Mail:</b> iurii@gmail.com",
+    "country": "<b>Country:</b> Germany",
+    "city": "<b>City:</b> Gelsenkirchen",
+    "street": "<b>Street:</b> Wiehagen 18",
+    "telegram": "<b>Telegram:</b> @iurii",
+    "whatsup": "<b>WhatsUp:</b> +49 (160) 1234567",
+    "logo": "KALD<b>IN</b><i>RII</i><br><b>IU</b>RII",
+    "logo-alt": "IN<br>IU"
+  },
+  "auth": {
+    "title": "Access restricted",
+    "password": "Enter password",
+    "submit": "Log in",
+    "text": "Enter the password sent to you in the email along with the website link.<br>After entering the password, you will be able to view my information and download my resume.",
+    "error": "Incorrect password",
+    "logout": "Logout"
+  },
+  "menu": {
+    "home": "Home",
+    "resume": "Resume",
+    "contacts": "Contacts",
+    "documents": "Documents",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy"
+  },
+  "breadcrumbs": {
+    "home": "",
+    "resume": "Resume",
+    "contacts": "Contacts",
+    "documents": "Documents",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "404": "Page not found"
+  },
+  "popup": {
+    "button": "Where to find the truth?",
+    "content": "Truth can only be found in one place:<br><b>The code</b>!",
+    "close": "Close"
+  },
+  "footer": {
+    "text": "KI"
+  },
+  "head": {
+    "home": {
+      "title": "Resume and portfolio of a Developer in Germany",
+      "meta-description": "Resume and portfolio of a Developer in Germany"
+    },
+    "resume": {
+      "title": "Resume"
+    },
+    "contacts": {
+      "title": "Contacts"
+    },
+    "documents": {
+      "title": "Documents"
+    },
+    "404": {
+      "title": "404 Error",
+      "meta-description": "404 error - this page does not exist"
+    },
+    "legal": {
+      "title": "Legal Notice"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "meta-author": "KI"
+  },
+  "home-page": {
+    "h1": "HOMEPAGE",
+    "typetext": "I am an application developer",
+    "text": "Hello,"
+  },
+  "resume-page": {
+    "h1": "Resume",
+    "text": "Here you can find information about my background, work experience, and professional skills"
+  },
+  "contacts-page": {
+    "h1": "Contact information"
+  },
+  "documents-page": {
+    "h1": "Documents",
+    "diplom-bachelor": "Bachelor's Degree Diploma",
+    "diplom-specialist": "Specialist Degree Diploma",
+    "diplom-bachelor-zab": "Bachelor's Degree Evaluation",
+    "diplom-specialist-zab": "Specialist Degree Evaluation",
+    "certificate-b1": "Integration Course (German B1)",
+    "certificate-b2": "Professional Language Course (German B2)",
+    "authority-diplom": "KhNUVD",
+    "authority-zab": "ZAB",
+    "authority-b1": "AWO",
+    "authority-b2": "Re/init",
+    "city-diplom": "Kharkiv (Ukraine)",
+    "city-zab": "Bonn (Germany)",
+    "city-certificate": "Gelsenkirchen (Germany)"
+  },
+  "not-found": {
+    "h1": "404",
+    "text": "Try going back to the home page of the website"
+  },
+  "legal-page": {
+    "h1": "Legal Notice",
+    "text": "Надо перевести на английский"
+  },
+  "privacy-page": {
+    "h1": "Privacy Policy",
+    "text": "Надо перевести на английский"
+  }
+}

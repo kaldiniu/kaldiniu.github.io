@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="de" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Security раскомментировать при загрузке на Github -->
+  <meta http-equiv="Content-Security-Policy"
+        content="
+          default-src 'self';
+          style-src 'self';
+          script-src 'self';
+          font-src 'self';
+          img-src 'self' data:;
+          connect-src 'self';
+          object-src 'none';
+          base-uri 'self';
+          form-action 'self';
+          upgrade-insecure-requests;
+  ">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Permissions-Policy" content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()">
+  
+  <link rel="icon" type="image/png" href="./favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="shortcut icon" href="./favicon.ico" />
+  <title>Lebenslauf und Portfolio des Entwicklers in Deutschland</title>
+  <meta name="description" content="Lebenslauf und Portfolio des Entwicklers in Deutschland" />
+  <meta name="author" content="KI" />
+  <script src="./js/theme.js"></script>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" class="hide-svg" aria-hidden="true" focusable="false">
+    <symbol id="icon-moon" viewBox="0 0 24 24">
+      <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z"/>
+    </symbol>
+    <symbol id="icon-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4"/>
+      <line x1="12" y1="1"  x2="12" y2="4"/>
+      <line x1="12" y1="20" x2="12" y2="23"/>
+      <line x1="1"  y1="12" x2="4"  y2="12"/>
+      <line x1="20" y1="12" x2="23" y2="12"/>
+      <line x1="4.2"  y1="4.2"  x2="6.4"  y2="6.4"/>
+      <line x1="17.6" y1="17.6" x2="19.8" y2="19.8"/>
+      <line x1="17.6" y1="6.4"  x2="19.8" y2="4.2"/>
+      <line x1="4.2"  y1="19.8" x2="6.4"  y2="17.6"/>
+    </symbol>
+    <symbol id="icon-burger" viewBox="0 0 24 24">
+      <line x1="3" y1="6" x2="21" y2="6"/>
+      <line x1="3" y1="12" x2="21" y2="12"/>
+      <line x1="3" y1="18" x2="21" y2="18"/>
+    </symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24">
+      <line x1="4" y1="4" x2="20" y2="20"/>
+      <line x1="20" y1="4" x2="4" y2="20"/>
+    </symbol>
+  </svg>
+  <div id="spinner" role="status" aria-live="polite"><div class="loader"></div></div>
+  <header class="header">
+    <div class="header-container container">
+      <div id="logo" class="header-logo logo"></div>
+      <nav id="nav" class="nav-block" aria-label="Main navigation">
+        <div id="menu" class="menu"></div>
+        <div class="lang-and-logout">
+          <button id="logout-btn" type="button" class="logout-btn button" aria-label="Log out"></button>
+          <div id="lang" class="lang-switch">
+            <button type="button" class="lang-switch-btn button" data-lang="de">DE</button><button type="button" class="lang-switch-btn button" data-lang="en">EN</button><button type="button" class="lang-switch-btn button" data-lang="ru">RU</button>
+          </div>
+        </div>
+      </nav>
+      <button id="theme-toggle" type="button" class="theme-toggle button" aria-label="Toggle theme"></button>
+      <button id="menu-toggle" type="button" class="menu-toggle button" aria-label="Open menu"></button>
+      <div id="link-to-main" class="link-to-main button"></div>
+    </div>
+  </header>
+    <main class="main">
+      <section id="content" class="content" aria-live="polite"></section>
+    </main>
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-left">
+        <div class="copyright">© <span id="current-year"></span> <span id="footer-text"></span></div>
+        <div id="legal" class="footer-links legal"></div>
+      </div>
+      <div id="privacy" class="footer-links privacy"></div>
+      <button id="popup-button-open" type="button" class="popup-button-open button" aria-label="Open popup"></button>
+      <div id="popup" class="popup">
+        <div id="popup-window" class="popup-window" role="dialog" aria-modal="true">
+          <div id="popup-content"></div>
+          <button id="popup-botton-close" type="button" class="popup-button-close button" aria-label="Close popup"></button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
