@@ -118,6 +118,11 @@
       "title": "Datenschutzerklärung",
       "menu": "Datenschutzerklärung",
       "text": "Erhebung personenbezogener Daten<br>Personenbezogene Daten (z. B. Name, E-Mail) werden nur erhoben, wenn Sie diese freiwillig angeben, z. B. über das Kontaktformular oder per E-Mail.Die Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage genutzt und nicht an Dritte weitergegeben.<br><br>Hosting<br>Die Website wird auf GitHub Pages gehostet. Dabei können anonyme Besuchsdaten (Traffic-Statistiken) von GitHub gesammelt werden. Ich habe darauf keinen Einfluss.<br><br>Cookies und Tracking<br>Es werden keine Cookies oder Analyse-/Tracking-Tools verwendet.<br><br>Ihre Rechte<br>Sie können jederzeit Auskunft über Ihre gespeicherten Daten verlangen, unrichtige Daten korrigieren lassen oder die Löschung Ihrer Daten verlangen."
+    },
+    "projects": {
+      "title": "Projekte",
+      "menu": "Projekte",
+      "text": ""
     }
   },
   "meta-author": "KI",

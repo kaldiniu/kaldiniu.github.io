@@ -8,11 +8,12 @@ export const LEGAL_PAGE = 'legal';
 export const AUTH_KEY = 'isAuth';
 export const LANG_KEY = 'lang';
 export const PROTECTED_PAGES = [
-    'home',
-    'resume',
-    'contacts',
-    'privacy',
-    'legal'
+    //'home',
+    //'resume',
+    //'contacts',
+    'projects',
+    //'privacy',
+    //'legal'
 ];
 export const HIDDEN_PAGES = [
     //MAIN_PAGE,
@@ -25,6 +26,7 @@ export const ROUTES = {
     home: '',
     resume: 'lebenslauf',
     contacts: 'kontakte',
+    projects: 'projekte',
     privacy: 'datenschutz',
     legal: 'impressum'
   },
@@ -32,6 +34,7 @@ export const ROUTES = {
     home: '',
     resume: 'resume',
     contacts: 'contacts',
+    projects: 'projects',
     privacy: 'privacy',
     legal: 'legal'
   },
@@ -39,6 +42,7 @@ export const ROUTES = {
     home: '',
     resume: 'resume',
     contacts: 'kontakty',
+    projects: 'proekty',
     privacy: 'privacy',
     legal: 'legal'
   }

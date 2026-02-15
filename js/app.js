@@ -5,6 +5,7 @@ import { t } from './i18n.js';
 import { renderHome } from './pages/home.js';
 import { renderResume } from './pages/resume.js';
 import { renderContacts } from './pages/contacts.js';
+import { renderProjects } from './pages/projects.js';
 import { renderPrivacy } from './pages/privacy.js';
 import { renderLegal } from './pages/legal.js';
 import { renderNotFound } from './pages/notFound.js';
@@ -22,6 +23,7 @@ const PAGE_RENDERERS = {
   home: renderHome,
   resume: renderResume,
   contacts: renderContacts,
+  projects: renderProjects,
   privacy: renderPrivacy,
   legal: renderLegal,
   auth: renderAuth,

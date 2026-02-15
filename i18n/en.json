@@ -118,6 +118,11 @@
       "title": "Privacy Policy",
       "menu": "Privacy Policy",
       "text": "Collection of personal data<br>Personal data (e.g. name, email) is only collected if you voluntarily provide it, for example via the contact form or email. The data is used exclusively to process your request and will not be shared with third parties.<br><br>Hosting<br>This website is hosted on GitHub Pages. Anonymous visitor data (traffic statistics) may be collected by GitHub. I have no influence on this process.<br><br>Cookies and Tracking<br>No cookies or analytics/tracking tools are used.<br><br>Your Rights<br>You have the right to request information about your stored data, correct inaccurate data, or request deletion of your data at any time."
+    },
+    "projects": {
+      "title": "Projects",
+      "menu": "Projects",
+      "text": ""
     }
   },
   "meta-author": "AI",
