@@ -453,10 +453,6 @@ body {
   outline: none;
 }
 
-#auth-password:focus {
-  border-right-color: transparent;
-}
-
 #auth-password:focus::placeholder {
   color: transparent;
 }
@@ -640,6 +636,10 @@ body {
     border-right: 2px solid transparent;
     width: 70%;
   }
+
+  #auth-password:focus {
+  border-right-color: transparent;
+}
 
   .login-btn {
     width: 30%;
