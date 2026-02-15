@@ -6,11 +6,11 @@ export function renderPrivacy() {
     <section class="row-section row-section__page">
       <div class="container main-container">
         <div class="left-pagesection">
-          <h1>${t('privacy-page.h1')}</h1>
+          <h1>${t('page.privacy.menu')}</h1>
         </div>
         <div class="right-pagesection">
           <div class="section-wrapper">
-            <p>${t('privacy-page.text')}</p>
+            ${t('page.privacy.text')}
           </div>
         </div>
       </div>

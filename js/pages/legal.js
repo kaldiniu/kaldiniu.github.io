@@ -6,11 +6,15 @@ export function renderLegal() {
     <section class="row-section row-section__page">
       <div class="container main-container">
         <div class="left-pagesection">
-          <h1>${t('legal-page.h1')}</h1>
+          <h1>${t('page.legal.menu')}</h1>
         </div>
         <div class="right-pagesection">
           <div class="section-wrapper">
-            <p>${t('legal-page.text')}</p>
+          <p>${t('name')}</p>
+          <p>${t('address')}</p>
+          <p>${t('email')}</p>
+          <p>${t('page.legal.text1')} ${t('name')}</p>
+          <p>${t('page.legal.text2')}</p>
           </div>
         </div>
       </div>

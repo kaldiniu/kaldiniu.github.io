@@ -5,7 +5,6 @@ import { t } from './i18n.js';
 import { renderHome } from './pages/home.js';
 import { renderResume } from './pages/resume.js';
 import { renderContacts } from './pages/contacts.js';
-import { renderDocuments } from './pages/documents.js';
 import { renderPrivacy } from './pages/privacy.js';
 import { renderLegal } from './pages/legal.js';
 import { renderNotFound } from './pages/notFound.js';
@@ -23,7 +22,6 @@ const PAGE_RENDERERS = {
   home: renderHome,
   resume: renderResume,
   contacts: renderContacts,
-  documents: renderDocuments,
   privacy: renderPrivacy,
   legal: renderLegal,
   auth: renderAuth,
@@ -133,7 +131,7 @@ function renderMenu(lang, currentPage) {
   Object.keys(ROUTES[lang]).forEach(page => {
     if (HIDDEN_PAGES.includes(page)) return;
 
-    const label = t(`menu.${page}`);
+    const label = t(`page.${page}.menu`);
 
     if (page === currentPage) {
       const span = document.createElement('span');
@@ -162,10 +160,10 @@ function renderBreadcrumbs(lang, page) {
       <svg class="icon" aria-hidden="true">
         <use href="#icon-home"></use>
       </svg>
-      ${t('breadcrumbs.home')}
+      ${t(`page.${MAIN_PAGE}.breadcrumbs`)}
     </a>
     /
-    <span>${t(`breadcrumbs.${page}`)}</span>
+    <span>${t(`page.${page}.breadcrumbs`)}</span>
   `;*/
   breadcrumbs.innerHTML = `
     <a href="${buildHash(lang, MAIN_PAGE)}">
@@ -180,19 +178,19 @@ function updateHead(page) {
   if (page === MAIN_PAGE || page === ERROR_PAGE) {
     document
       .querySelector('meta[name="description"]')
-      .setAttribute('content', t(`head.${page}.meta-description`));
+      .setAttribute('content', t(`page.${page}.meta-description`));
 
   } else {
     document
       .querySelector('meta[name="description"]')
-      .setAttribute('content', t(`head.${MAIN_PAGE}.meta-description`));
+      .setAttribute('content', t(`page.${MAIN_PAGE}.meta-description`));
   }
 
-  document.title = t(`head.${page}.title`);
+  document.title = t(`page.${page}.title`);
   
   document
     .querySelector('meta[name="author"]')
-    .setAttribute('content', t('head.meta-author'));
+    .setAttribute('content', t('meta-author'));
 
 }
 
@@ -218,7 +216,7 @@ function updateUI(route) {
   if (page === MAIN_PAGE) {
     requestAnimationFrame(() => {
       runTypewriter({
-        text: t('home-page.typetext'),
+        text: t(`page.${MAIN_PAGE}.typetext`),
         speed: 100,
         delay: 1200
       });
@@ -236,7 +234,7 @@ function updateUI(route) {
       : `<a href="${buildHash(route.lang, page)}">${label}</a>`;
 
   logoEl.innerHTML =
-    logo(MAIN_PAGE, t('mydata.logo'));
+    logo(MAIN_PAGE, t('logo'));
 
   const footerLink = (page, label) =>
     route.page === page
@@ -244,13 +242,13 @@ function updateUI(route) {
       : `<a href="${buildHash(route.lang, page)}">${label}</a>`;
 
   legal.innerHTML =
-    footerLink(LEGAL_PAGE, t('menu.legal'));
+    footerLink(LEGAL_PAGE, t('page.legal.menu'));
 
   privacy.innerHTML =
-    footerLink(PRIVACY_PAGE, t('menu.privacy'));
+    footerLink(PRIVACY_PAGE, t('page.privacy.menu'));
 
   popupOpen.textContent = t('popup.button');
-  footerText.textContent = t('footer.text');
+  footerText.textContent = t('meta-author');
   popupClose.textContent = t('popup.close');
 
   updateLogoutButton();

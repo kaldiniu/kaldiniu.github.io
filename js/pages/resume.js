@@ -1,82 +1,113 @@
 // /js/pages/resume.js
 import { t } from '../i18n.js';
+import { openPopup } from '../components/popup.js';
+
 const content = document.getElementById('content');
 export function renderResume() {
   content.innerHTML = `
   <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h1>Über mich</h1>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <p><strong>Umschüler zum Fachinformatiker (Anwendungsentwicklung) in Deutschland</strong> mit wirtschaftlichem Hintergrund und mehrjähriger Berufserfahrung als Ökonom, Content-Manager, Marketing-Spezialist und Unternehmer. Strukturierte, verantwortungsbewusste und lernorientierte Persönlichkeit mit starkem Interesse an Webentwicklung und IT.</p>
-        <p>Ich wurde in der Ukraine geboren. Nach meinem Schulabschluss absolvierte ich eine berufliche Ausbildung und erlangte anschließend ein wirtschaftliches Hochschulstudium. Meine akademische Ausbildung umfasst einen Bachelorabschluss in Betriebswirtschaft sowie ein Diplom als Spezialist im Bereich Finanzen. Beide Abschlüsse sind in Deutschland offiziell anerkannt (Zeugnisbewertung für ausländische Hochschulabschlüsse).</p>
-        <p>Nach mehreren Jahren Berufserfahrung als Ökonom und später als selbstständiger Content-Manager und Online-Marketing-Spezialist entschied ich mich für eine berufliche Neuorientierung im Bereich IT und Webentwicklung.</p>
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h1>${t('page.resume.about-header')}</h1>
       </div>
-    </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <p class="resume-about">${t('page.resume.about-text')}</p>
+        </div>
+      </div>
     </div>
   </section>
   <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>Berufserfahrung</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <h3>Selbstständiger Unternehmer</h3>
-        <p class="meta">2021 – 2022 (Ukraine)</p>
-        <ul>
-          <li>Verkauf von Heizungsanlagen</li>
-          <li>Kundenberatung</li>
-          <li>Organisation von Einkauf und Vertrieb</li>
-        </ul>
-        <h3>Freelancer – Content-Manager & Online-Marketing</h3>
-        <p class="meta">2014 – 2020 (Ukraine)</p>
-        <ul>
-          <li>Pflege und Verwaltung von Online-Shops</li>
-          <li>Erstellung und Optimierung von Produktinhalten</li>
-          <li>Grundlagen SEO und Online-Marketing</li>
-        </ul>
-        <h3>Ökonom – Wärmeenergieunternehmen „Teploenergo“</h3>
-        <p class="meta">2010 – 2014 (Ukraine)</p>
-        <ul>
-          <li>Wirtschaftliche Analyse</li>
-          <li>Kalkulation und Kostenkontrolle</li>
-          <li>Arbeit mit Berichten und Kennzahlen</li>
-        </ul>
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h2>${t('page.resume.lang-header')}</h2>
       </div>
-    </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <ol class="resume-list">
+            <li>${t('page.resume.lang.01')} <i>${t('page.resume.lang.01-level')}</i></li>
+            <li>${t('page.resume.lang.02')} <i>${t('page.resume.lang.02-level')}</i></li>
+            <li>${t('page.resume.lang.03')} <i>${t('page.resume.lang.03-level')}</i></li>
+            <li>${t('page.resume.lang.04')} <i>${t('page.resume.lang.04-level')}</i></li>
+          </ol>
+        </div>
+      </div>
     </div>
   </section>
   <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>Ausbildung</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <h3>Umschulung zum Fachinformatiker - Anwendungsentwicklung</h3>
-        <p class="meta">seit 2026 · GFN GmbH, Essen</p>
-        <h3>Vorbereitungskurs zur Umschulung (Zertifikat)</h3>
-        <p class="meta">11/2025 – 12/2025 · dama.go GmbH, Essen</p>
-        <h3>Deutschkurs für den Beruf – B2 (Zertifikat)</h3>
-        <p class="meta">2024 – 2025 · Re/Init, Gelsenkirchen</p>
-        <h3>Deutschkurs für Zuwanderer – B1 (Zertifikat)</h3>
-        <p class="meta">2023 – 2024 · AWO, Gelsenkirchen</p>
-        <h3>Hochschulbildung (anerkannt in Deutschland)</h3>
-        <ul>
-          <li>Bachelor – Betriebswirtschaft (2004 – 2008)<br>
-            <i>Charkiwer Nationale Universität für innere Angelegenheiten, Charkiw</i><br>
-            <i>Zeugnisbewertung für ausländische Hochschulabschlüsse vorhanden</i>
-          </li>
-          <li>Spezialist – Finanzen (2008 - 2009)<br>
-            <i>Charkiwer Nationale Universität für innere Angelegenheiten, Charkiw</i><br>
-            <i>Zeugnisbewertung für ausländische Hochschulabschlüsse vorhanden</i>
-          </li>
-        </ul>
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h2>${t('page.resume.education-header')}</h2>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <div class="resume-cards">
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-01')}</p>
+              <h3>${t('page.resume.education.name-01')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-01')}</p>
+            </section>
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-02')}</p>
+              <h3>${t('page.resume.education.name-02')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-02')}</p>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-02')}">${t('page.resume.education.sert-02')}</button>
+            </section>
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-03')}</p>
+              <h3>${t('page.resume.education.name-03')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-03')}</p>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-03')}">${t('page.resume.education.sert-03')}</button>
+            </section>
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-04')}</p>
+              <h3>${t('page.resume.education.name-04')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-04')}</p>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-04')}">${t('page.resume.education.sert-04')}</button>
+            </section>
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-05')}</p>
+              <h3>${t('page.resume.education.name-05')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-05')}</p>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-05')}">${t('page.resume.education.sert-05')}</button>
+            </section>
+            <section class="resume-cards__item">
+              <p class="resume-card__year">${t('page.resume.education.year-06')}</p>
+              <h3>${t('page.resume.education.name-06')}</h3>
+              <p class="resume-card__org">${t('page.resume.education.org-06')}</p>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-06')}">${t('page.resume.education.sert-06')}</button>
+            </section> 
+          </div>
+        </div>
       </div>
     </div>
+  </section>
+  <section class="row-section row-section__page">
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h2>${t('page.resume.work-header')}</h2>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <div class="resume-cards">
+            <section class="resume-cards__item resume-cards-alt">
+              <p class="resume-card__year">${t('page.resume.work.year-01')}</p>
+              <h3 class="resume-card__name">${t('page.resume.work.name-01')}</h3>
+              <p class="resume-card__task">${t('page.resume.work.task-01')}</p>
+            </section>
+            <section class="resume-cards__item resume-cards-alt">
+              <p class="resume-card__year">${t('page.resume.work.year-02')}</p>
+              <h3 class="resume-card__name">${t('page.resume.work.name-02')}</h3>
+              <p class="resume-card__task">${t('page.resume.work.task-02')}</p>
+            </section>
+            <section class="resume-cards__item resume-cards-alt">
+              <p class="resume-card__year">${t('page.resume.work.year-03')}</p>
+              <h3 class="resume-card__name">${t('page.resume.work.name-03')}</h3>
+              <p class="resume-card__task">${t('page.resume.work.task-03')}</p>
+            </section>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   <section class="row-section row-section__page">
@@ -86,15 +117,18 @@ export function renderResume() {
     </div>
     <div class="right-pagesection">
       <div class="section-wrapper">
-        <ul>
-          <li>HTML (semantisch)</li>
-          <li>CSS (Flexbox, Grid, Responsive Design)</li>
-          <li>JavaScript (Grundlagen)</li>
+        <ul class="resume-skills">
+          <li>HTML</li>
+          <li>CSS (Flexbox, Grid)</li>
+          <li>JavaScript</li>
           <li>LESS / SASS</li>
           <li>Bootstrap</li>
           <li>BEM Methodologie</li>
-          <li>Git</li>
-          <li>Webpack (Grundlagen)</li>
+          <li>Git / GitHub</li>
+          <li>Webpack</li>
+          <li>npm</li>
+          <li>REST, JSON, Fetch</li>
+          <li>SPA</li>
         </ul>
       </div>
     </div>
@@ -107,49 +141,44 @@ export function renderResume() {
     </div>
     <div class="right-pagesection">
       <div class="section-wrapper">
-        <ul>
-          <li>Strukturierte und zuverlässige Arbeitsweise</li>
-          <li>Hohe Lernbereitschaft</li>
-          <li>Teamfähigkeit</li>
-          <li>Analytisches Denken</li>
+        <ul class="resume-skills resume-skills__50">
+          <li>${t('page.resume.skill.01')}</li>
+          <li>${t('page.resume.skill.02')}</li>
+          <li>${t('page.resume.skill.03')}</li>
+          <li>${t('page.resume.skill.04')}</li>
+          <li>${t('page.resume.skill.05')}</li>
+          <li>${t('page.resume.skill.06')}</li>
         </ul>
       </div>
     </div>
     </div>
   </section>
+
   <section class="row-section row-section__page">
   <div class="container main-container">
     <div class="left-pagesection">
-      <h2>Sprachen</h2>
+      <h2>${t('page.resume.hobby-header')}</h2>
     </div>
     <div class="right-pagesection">
       <div class="section-wrapper">
-        <ul>
-          <li>Russisch – Muttersprache</li>
-          <li>Ukrainisch – fließend</li>
-          <li>Deutsch – B2 (Zertifikat)</li>
-          <li>Englisch – B1</li>
-        </ul>
-      </div>
-    </div>
-    </div>
-  </section>
-  <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>Hobbys & Sport</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <ul>
-          <li>Fußball (Hallenfußball)</li>
-          <li>Skifahren</li>
-          <li>Laufen</li>
-          <li>Sammeln von Musikschallplatten</li>
+        <ul class="resume-list">
+          <li>${t('page.resume.hobby.01')}</li>
+          <li>${t('page.resume.hobby.02')}</li>
+          <li>${t('page.resume.hobby.03')}</li>
+          <li>${t('page.resume.hobby.04')}</li>
         </ul>
       </div>
     </div>
     </div>
   </section>
   `;
+
+    content.onclick = e => {
+      const card = e.target.closest('.popup-button-open');
+      if (!card) return;
+  
+      const img = document.createElement('img');
+      img.src = card.dataset.src;
+      openPopup(img);
+    };
 }

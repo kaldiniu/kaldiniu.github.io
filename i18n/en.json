@@ -1,111 +1,137 @@
 {
-  "mydata": {
-    "email": "<b>E-Mail:</b> nospam@mail.com",
-    "country": "<b>Country:</b> Germany",
-    "city": "<b>City:</b> Gelsenkirchen",
-    "street": "<b>Straße:</b> Straße 10",
-    "telegram": "<b>Telegram:</b> @telegram",
-    "whatsup": "<b>WhatsUp:</b> +49 (100) 1234567",
-    "logo": "KALD<b>IN</b><i>RII</i><br><b>IU</b>RII",
-    "logo-alt": "IN<br>IU"
-  },
-  "auth": {
-    "title": "Access restricted",
-    "password": "Enter password",
-    "submit": "Log in",
-    "text": "Enter the password sent to you in the email along with the website link.<br>After entering the password, you will be able to view my information and download my resume.",
-    "error": "Incorrect password",
-    "logout": "Logout"
-  },
-  "menu": {
-    "home": "Home",
-    "resume": "Resume",
-    "contacts": "Contacts",
-    "documents": "Documents",
-    "legal": "Legal Notice",
-    "privacy": "Privacy Policy"
-  },
-  "breadcrumbs": {
-    "home": "",
-    "resume": "Resume",
-    "contacts": "Contacts",
-    "documents": "Documents",
-    "legal": "Legal Notice",
-    "privacy": "Privacy Policy",
-    "404": "Page not found"
-  },
-  "popup": {
-    "button": "Where to find the truth?",
-    "content": "Truth can only be found in one place:<br><b>The code</b>!",
-    "close": "Close"
-  },
-  "footer": {
-    "text": "KI"
-  },
-  "head": {
+  "name": "Iurii Kaldin",
+  "address": "Gelsenkirchen, Germany",
+  "logo": "KALD<b>IN</b><i>RII</i><br><b>IU</b>RII",
+  "logo-alt": "IN<br>IU",
+  "country": "<b>Country:</b> Germany",
+  "city": "<b>City:</b> Gelsenkirchen",
+  "email": "<b>Email:</b> kaldin.iurii@gmail.com",
+  "page": {
     "home": {
-      "title": "Resume and portfolio of a Developer in Germany",
-      "meta-description": "Resume and portfolio of a Developer in Germany"
-    },
-    "resume": {
-      "title": "Resume"
-    },
-    "contacts": {
-      "title": "Contacts"
-    },
-    "documents": {
-      "title": "Documents"
+      "title": "Developer Resume and Portfolio in Germany",
+      "meta-description": "Developer Resume and Portfolio in Germany",
+      "menu": "Home",
+      "typetext": "I am a software developer",
+      "text": "Hello,"
     },
     "404": {
       "title": "404 Error",
-      "meta-description": "404 error - this page does not exist"
+      "meta-description": "404 Error - this page does not exist",
+      "h1": "404",
+      "text": "Try going back to the homepage"
+    },
+    "resume": {
+      "title": "Resume",
+      "menu": "Resume",
+      "about-header": "About Me",
+      "about-text": "<strong>Trainee software developer (application development)</strong> in Germany with an economic background. I was born in Ukraine and have been living in Germany since 2022. After finishing school, I completed vocational training and later obtained a university degree in economics. My academic education includes a Bachelor's degree in Business Administration and a Specialist diploma in Finance. Both degrees are officially recognized in Germany. After several years of professional experience as an economist and later as a self-employed content manager and online marketing specialist, I decided to change my career path towards IT and software development.",
+      "lang-header": "Languages",
+      "lang": {
+        "01": "German",
+        "01-level": "B2 (certificate)",
+        "02": "English",
+        "02-level": "B1+",
+        "03": "Russian",
+        "03-level": "Native",
+        "04": "Ukrainian",
+        "04-level": "Fluent"
+      },
+      "education-header": "Education",
+      "education": {
+        "year-01": "01/2026 - present",
+        "name-01": "Retraining as IT Specialist (Application Development)",
+        "org-01": "GFN GmbH, Essen",
+        "sert-01": "",
+        "doc-01": "./assets/images/certificate-b1.jpg",
+        "year-02": "11/2025 – 12/2025",
+        "name-02": "Preparatory Course for Retraining (Software Development)",
+        "org-02": "dama.go GmbH, Essen",
+        "sert-02": "Certificate",
+        "doc-02": "./assets/images/certificate-b1.jpg",
+        "year-03": "2024 – 2025",
+        "name-03": "German Course for Professional Purposes",
+        "org-03": "Re/Init, Gelsenkirchen",
+        "sert-03": "B2 Certificate",
+        "doc-03": "./assets/images/certificate-b1.jpg",
+        "year-04": "2023 – 2024",
+        "name-04": "German Integration Course",
+        "org-04": "AWO, Gelsenkirchen",
+        "sert-04": "B1 Certificate",
+        "doc-04": "./assets/images/certificate-b1.jpg",
+        "year-05": "2008 – 2009 (Ukraine)",
+        "name-05": "Higher Education (Specialist – Finance)",
+        "org-05": "Kharkiv National University of Internal Affairs, Kharkiv",
+        "sert-05": "Degree Recognition",
+        "doc-05": "./assets/images/certificate-b1.jpg",
+        "year-06": "2004 – 2008 (Ukraine)",
+        "name-06": "Higher Education (Bachelor – Business Administration)",
+        "org-06": "Kharkiv National University of Internal Affairs, Kharkiv",
+        "sert-06": "Degree Recognition",
+        "doc-06": "./assets/images/certificate-b1.jpg"
+      },
+      "work-header": "Work Experience",
+      "work": {
+        "year-01": "2020 – 2022 (Ukraine)",
+        "name-01": "Self-employed Entrepreneur",
+        "task-01": "Sales of heating systems<br>Customer consulting<br>Organization of purchasing and distribution",
+        "year-02": "2014 – 2020 (Ukraine)",
+        "name-02": "Content Manager & Online Marketing",
+        "task-02": "Managing online shops<br>Creating and optimizing product content<br>Basic SEO and online marketing",
+        "year-03": "2010 – 2014 (Ukraine)",
+        "name-03": "Economist",
+        "task-03": "Economic analysis<br>Cost calculation and control<br>Reporting and KPI analysis"
+      },
+      "skill": {
+        "01": "Structured working style",
+        "02": "High reliability",
+        "03": "Strong willingness to learn",
+        "04": "Teamwork",
+        "05": "Analytical thinking",
+        "06": "Problem-solving skills"
+      },
+      "hobby-header": "Hobbies and Sports",
+      "hobby": {
+        "01": "Football",
+        "02": "Skiing",
+        "03": "Rock concerts",
+        "04": "CD collecting"
+      }
+    },
+    "contacts": {
+      "title": "Contact",
+      "menu": "Contact",
+      "h1": "Contact Information",
+      "name": "Your name",
+      "message": "Your message",
+      "send": "Send",
+      "message-success": "<strong>Message successfully sent.</strong> Thank you for your inquiry.",
+      "message-error": "<strong>Error while sending.</strong> Please try again later.",
+      "message-error2": "<strong>Network error.</strong> Please try again later."
     },
     "legal": {
-      "title": "Legal Notice"
+      "title": "Legal Notice",
+      "menu": "Legal Notice",
+      "text1": "Responsible for content according to § 55 Abs. 2 RStV:",
+      "text2": "The content of this website has been created with the greatest possible care. However, no guarantee is given for the accuracy, completeness or timeliness of the content.<br><br>Liability for Links<br>This website contains links to external third-party websites. The respective operator is solely responsible for their content.<br><br>Copyright<br>The content and works created by the site operator on this website are subject to copyright law. Any use outside the limits of copyright requires the prior written consent of the author."
     },
     "privacy": {
-      "title": "Privacy Policy"
-    },
-    "meta-author": "KI"
+      "title": "Privacy Policy",
+      "menu": "Privacy Policy",
+      "text": "Collection of personal data<br>Personal data (e.g. name, email) is only collected if you voluntarily provide it, for example via the contact form or email. The data is used exclusively to process your request and will not be shared with third parties.<br><br>Hosting<br>This website is hosted on GitHub Pages. Anonymous visitor data (traffic statistics) may be collected by GitHub. I have no influence on this process.<br><br>Cookies and Tracking<br>No cookies or analytics/tracking tools are used.<br><br>Your Rights<br>You have the right to request information about your stored data, correct inaccurate data, or request deletion of your data at any time."
+    }
   },
-  "home-page": {
-    "h1": "HOMEPAGE",
-    "typetext": "I am an application developer",
-    "text": "Hello,"
+  "meta-author": "AI",
+  "auth": {
+    "title": "Restricted Access",
+    "password": "Enter password",
+    "submit": "Login",
+    "text": "Enter the password you received together with the website link via email.<br>After entering the password, you will be able to view my information and download my resume.",
+    "error": "Wrong password",
+    "logout": "Logout"
   },
-  "resume-page": {
-    "h1": "Resume",
-    "text": "Here you can find information about my background, work experience, and professional skills"
-  },
-  "contacts-page": {
-    "h1": "Contact information"
-  },
-  "documents-page": {
-    "h1": "Documents",
-    "diplom-bachelor": "Bachelor's Degree Diploma",
-    "diplom-specialist": "Specialist Degree Diploma",
-    "diplom-bachelor-zab": "Bachelor's Degree Evaluation",
-    "diplom-specialist-zab": "Specialist Degree Evaluation",
-    "certificate-b1": "Integration Course (German B1)",
-    "certificate-b2": "Professional Language Course (German B2)",
-    "authority-diplom": "KhNUVD",
-    "authority-zab": "ZAB",
-    "authority-b1": "AWO",
-    "authority-b2": "Re/init",
-    "city-diplom": "Kharkiv (Ukraine)",
-    "city-zab": "Bonn (Germany)",
-    "city-certificate": "Gelsenkirchen (Germany)"
-  },
-  "not-found": {
-    "h1": "404",
-    "text": "Try going back to the home page of the website"
-  },
-  "legal-page": {
-    "h1": "Legal Notice",
-    "text": "Надо перевести на английский"
-  },
-  "privacy-page": {
-    "h1": "Privacy Policy",
-    "text": "Надо перевести на английский"
+  "popup": {
+    "button": "Where can the truth be found?",
+    "content": "The truth can only be found in one place:<br><b>In the code</b>!",
+    "close": "Close"
   }
 }

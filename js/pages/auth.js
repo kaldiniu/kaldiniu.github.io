@@ -9,7 +9,7 @@ export function renderAuth() {
       <section class="row-section row-section__auth">
         <div class="container main-container">
           <div class="left-pagesection">
-            <h1 class="logo logo__auth">${t('mydata.logo-alt')}</h1>
+            <h1 class="logo logo__auth">${t('logo-alt')}</h1>
           </div>
           <div class="right-pagesection">
             <div class="section-wrapper">

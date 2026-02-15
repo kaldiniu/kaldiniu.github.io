@@ -10,7 +10,6 @@ export const LANG_KEY = 'lang';
 export const PROTECTED_PAGES = [
     'home',
     'resume',
-    'documents',
     'contacts',
     'privacy',
     'legal'
@@ -26,7 +25,6 @@ export const ROUTES = {
     home: '',
     resume: 'lebenslauf',
     contacts: 'kontakte',
-    documents: 'unterlagen',
     privacy: 'datenschutz',
     legal: 'impressum'
   },
@@ -34,7 +32,6 @@ export const ROUTES = {
     home: '',
     resume: 'resume',
     contacts: 'contacts',
-    documents: 'documents',
     privacy: 'privacy',
     legal: 'legal'
   },
@@ -42,7 +39,6 @@ export const ROUTES = {
     home: '',
     resume: 'resume',
     contacts: 'kontakty',
-    documents: 'dokumenty',
     privacy: 'privacy',
     legal: 'legal'
   }

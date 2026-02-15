@@ -7,17 +7,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Security раскомментировать при загрузке на Github -->
   <meta http-equiv="Content-Security-Policy"
-        content="
-          default-src 'self';
-          style-src 'self';
-          script-src 'self';
-          font-src 'self';
-          img-src 'self' data:;
-          connect-src 'self';
-          object-src 'none';
-          base-uri 'self';
-          form-action 'self';
-          upgrade-insecure-requests;
+      content="
+        default-src 'self';
+        style-src 'self';
+        script-src 'self';
+        font-src 'self';
+        img-src 'self' data:;
+        connect-src 'self' https://formspree.io;
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self' https://formspree.io;
+        upgrade-insecure-requests;
   ">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="Permissions-Policy" content="accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=()">
