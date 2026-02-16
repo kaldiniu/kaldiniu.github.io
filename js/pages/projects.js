@@ -11,7 +11,7 @@ export function renderProjects() {
         <div class="right-pagesection">
           <div class="section-wrapper">
             <ul class="projects-list">
-              <li>Single Page Application</li>
+              <li><a href="projects/01-click-counter">Click Counter</a></li>
             </ul>
           </div>
         </div>
