@@ -94,31 +94,30 @@ export function renderResume() {
               <p class="resume-card__year">${t('page.resume.education.year-02')}</p>
               <h3>${t('page.resume.education.name-02')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-02')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-02')}">${t('page.resume.education.sert-02')}</button>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-02')}">${t('page.resume.education.cert-02')}</button>
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-03')}</p>
               <h3>${t('page.resume.education.name-03')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-03')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-03')}">${t('page.resume.education.sert-03')}</button>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-03')}">${t('page.resume.education.cert-03')}</button>
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-04')}</p>
               <h3>${t('page.resume.education.name-04')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-04')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-04')}">${t('page.resume.education.sert-04')}</button>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-04')}">${t('page.resume.education.cert-04')}</button>
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-05')}</p>
               <h3>${t('page.resume.education.name-05')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-05')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-05')}">${t('page.resume.education.sert-05')}</button>
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-06')}</p>
               <h3>${t('page.resume.education.name-06')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-06')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-06')}">${t('page.resume.education.sert-06')}</button>
+              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-06')}">${t('page.resume.education.cert-06')}</button>
             </section> 
           </div>
         </div>
