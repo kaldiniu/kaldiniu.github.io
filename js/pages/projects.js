@@ -10,7 +10,9 @@ export function renderProjects() {
         </div>
         <div class="right-pagesection">
           <div class="section-wrapper">
-            ${t('page.projects.text')}
+            <ul class="projects-list">
+              <li>Single Page Application</li>
+            </ul>
           </div>
         </div>
       </div>

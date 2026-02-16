@@ -37,6 +37,49 @@ export function renderResume() {
   <section class="row-section row-section__page">
     <div class="container main-container">
       <div class="left-pagesection">
+        <h2>Hard Skills</h2>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <ul class="resume-skills">
+            <li>HTML</li>
+            <li>CSS (Flexbox, Grid)</li>
+            <li>JavaScript</li>
+            <li>LESS / SASS</li>
+            <li>Bootstrap</li>
+            <li>BEM Methodologie</li>
+            <li>Git / GitHub</li>
+            <li>Webpack</li>
+            <li>npm</li>
+            <li>REST, JSON, Fetch</li>
+            <li>SPA</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row-section row-section__page">
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h2>Soft Skills</h2>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <ul class="resume-skills resume-skills__50">
+            <li>${t('page.resume.skill.01')}</li>
+            <li>${t('page.resume.skill.02')}</li>
+            <li>${t('page.resume.skill.03')}</li>
+            <li>${t('page.resume.skill.04')}</li>
+            <li>${t('page.resume.skill.05')}</li>
+            <li>${t('page.resume.skill.06')}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="row-section row-section__page">
+    <div class="container main-container">
+      <div class="left-pagesection">
         <h2>${t('page.resume.education-header')}</h2>
       </div>
       <div class="right-pagesection">
@@ -111,64 +154,20 @@ export function renderResume() {
     </div>
   </section>
   <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>Hard Skills</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <ul class="resume-skills">
-          <li>HTML</li>
-          <li>CSS (Flexbox, Grid)</li>
-          <li>JavaScript</li>
-          <li>LESS / SASS</li>
-          <li>Bootstrap</li>
-          <li>BEM Methodologie</li>
-          <li>Git / GitHub</li>
-          <li>Webpack</li>
-          <li>npm</li>
-          <li>REST, JSON, Fetch</li>
-          <li>SPA</li>
-        </ul>
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h2>${t('page.resume.hobby-header')}</h2>
       </div>
-    </div>
-    </div>
-  </section>
-  <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>Soft Skills</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <ul class="resume-skills resume-skills__50">
-          <li>${t('page.resume.skill.01')}</li>
-          <li>${t('page.resume.skill.02')}</li>
-          <li>${t('page.resume.skill.03')}</li>
-          <li>${t('page.resume.skill.04')}</li>
-          <li>${t('page.resume.skill.05')}</li>
-          <li>${t('page.resume.skill.06')}</li>
-        </ul>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <ul class="resume-list">
+            <li>${t('page.resume.hobby.01')}</li>
+            <li>${t('page.resume.hobby.02')}</li>
+            <li>${t('page.resume.hobby.03')}</li>
+            <li>${t('page.resume.hobby.04')}</li>
+          </ul>
+        </div>
       </div>
-    </div>
-    </div>
-  </section>
-
-  <section class="row-section row-section__page">
-  <div class="container main-container">
-    <div class="left-pagesection">
-      <h2>${t('page.resume.hobby-header')}</h2>
-    </div>
-    <div class="right-pagesection">
-      <div class="section-wrapper">
-        <ul class="resume-list">
-          <li>${t('page.resume.hobby.01')}</li>
-          <li>${t('page.resume.hobby.02')}</li>
-          <li>${t('page.resume.hobby.03')}</li>
-          <li>${t('page.resume.hobby.04')}</li>
-        </ul>
-      </div>
-    </div>
     </div>
   </section>
   `;
