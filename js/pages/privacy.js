@@ -10,7 +10,11 @@ export function renderPrivacy() {
         </div>
         <div class="right-pagesection">
           <div class="section-wrapper">
-            ${t('page.privacy.text')}
+            <p>${t('page.privacy.text')}</p>
+            <p>${t('name')}</p>
+            <p>${t('address')}</p>
+            <p>${t('email')}</p><br>
+            <p>${t('page.privacy.text1')}</p>
           </div>
         </div>
       </div>

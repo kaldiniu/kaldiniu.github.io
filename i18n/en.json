@@ -104,20 +104,23 @@
       "name": "Your name",
       "message": "Your message",
       "send": "Send",
+      "text": "By submitting the form, you consent to the processing of your data in accordance with the Privacy Policy.",
       "message-success": "<strong>Message successfully sent.</strong> Thank you for your inquiry.",
       "message-error": "<strong>Error while sending.</strong> Please try again later.",
       "message-error2": "<strong>Network error.</strong> Please try again later."
     },
     "legal": {
-      "title": "Legal Notice",
+      "title": "Legal Notice (Impressum)",
       "menu": "Legal Notice",
-      "text1": "Responsible for content according to § 55 Abs. 2 RStV:",
-      "text2": "The content of this website has been created with the greatest possible care. However, no guarantee is given for the accuracy, completeness or timeliness of the content.<br><br>Liability for Links<br>This website contains links to external third-party websites. The respective operator is solely responsible for their content.<br><br>Copyright<br>The content and works created by the site operator on this website are subject to copyright law. Any use outside the limits of copyright requires the prior written consent of the author."
+      "text": "Information pursuant to § 5 TMG:",
+      "text1": "Responsible for content according to Section 18 (2) of the Interstate Media Treaty (MStV):",
+      "text2": "The content of this website has been created with the utmost care. However, no guarantee is given for the accuracy, completeness or timeliness of the information provided.<br><br>Liability for Links<br>This website contains links to external third-party websites. The respective provider or operator of the linked pages is solely responsible for their content.<br><br>Copyright<br>The content and materials created by the site operator are subject to German copyright law. Any use beyond the limits of copyright law requires the prior written consent of the author."
     },
     "privacy": {
       "title": "Privacy Policy",
       "menu": "Privacy Policy",
-      "text": "Collection of personal data<br>Personal data (e.g. name, email) is only collected if you voluntarily provide it, for example via the contact form or email. The data is used exclusively to process your request and will not be shared with third parties.<br><br>Hosting<br>This website is hosted on GitHub Pages. Anonymous visitor data (traffic statistics) may be collected by GitHub. I have no influence on this process.<br><br>Cookies and Tracking<br>No cookies or analytics/tracking tools are used.<br><br>Your Rights<br>You have the right to request information about your stored data, correct inaccurate data, or request deletion of your data at any time."
+      "text": "This website is used exclusively for professional self-presentation and is not indexed.<br><br>1. Controller<br>The controller responsible for data processing on this website is:",
+      "text1": "2. Hosting<br>This website is hosted via GitHub, Inc., 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, USA.<br>When accessing the website, server log files are automatically collected (IP address, date and time of access, browser type, operating system).<br>Processing is carried out under Art. 6 (1) lit. f GDPR (legitimate interest in a secure and stable website).<br>Data may be transferred to the USA under appropriate safeguards (Art. 44 ff. GDPR).<br>Further information can be found in GitHub's privacy policy.<br><br>3. Contact Form<br>A contact form provided by Formspree Inc., USA, is used.<br>If you use the contact form, the data you enter (name, email, message) will be transmitted to Formspree for processing your request.<br>Legal basis: Art. 6 (1) lit. b GDPR.<br>Data may be transferred to a third country (USA).<br>Further information can be found in Formspree's privacy policy.<br>By submitting the form, you consent to the processing of your data according to this policy.<br><br>4. Data Retention<br>Data is stored only as long as necessary to process your request.<br><br>5. Your Rights<br>Under the GDPR, you have the following rights:<br>- Right of access (Art. 15)<br>- Rectification (Art. 16)<br>- Erasure (Art. 17)<br>- Restriction of processing (Art. 18)<br>- Objection (Art. 21)<br>- Data portability (Art. 20)<br>You also have the right to lodge a complaint with a data protection authority.<br><br>6. SSL Encryption<br>This website uses SSL encryption for security. A secure connection can be recognized by the address starting with \"https://\"."
     },
     "projects": {
       "title": "Projects",
@@ -125,7 +128,7 @@
       "text": ""
     }
   },
-  "meta-author": "AI",
+  "meta-author": "K.I.",
   "auth": {
     "title": "Restricted Access",
     "password": "Enter password",

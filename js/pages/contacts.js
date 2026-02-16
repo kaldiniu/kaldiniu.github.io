@@ -20,6 +20,7 @@ export function renderContacts() {
               <input type="email" name="email" required>
               <label>${t('page.contacts.message')}</label>
               <textarea name="message" required></textarea>
+              <p class="agree">${t('page.contacts.text')}</p>
               <button class="send-btn button" type="submit">${t('page.contacts.send')}</button>
             </form>
             <div class="main-data">

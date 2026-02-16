@@ -440,7 +440,11 @@ body {
   resize: vertical;
 }
 
-/* Статус формы */
+.agree {
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
 #form-status {
   color: var(--accent);
   margin-top: 10px;

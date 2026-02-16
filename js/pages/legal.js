@@ -10,9 +10,10 @@ export function renderLegal() {
         </div>
         <div class="right-pagesection">
           <div class="section-wrapper">
+          <p>${t('page.legal.text')}
           <p>${t('name')}</p>
           <p>${t('address')}</p>
-          <p>${t('email')}</p>
+          <p>${t('email')}</p><br>
           <p>${t('page.legal.text1')} ${t('name')}</p>
           <p>${t('page.legal.text2')}</p>
           </div>
