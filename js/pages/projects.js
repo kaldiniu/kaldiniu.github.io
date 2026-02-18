@@ -11,7 +11,7 @@ export function renderProjects() {
         <div class="right-pagesection">
           <div class="section-wrapper">
             <ul class="projects-list">
-              <li><a href="projects/02-calculator">Calculator</a></li>
+              <li><a href="projects/02-calculator">Simple calculator</a></li>
               <li><a href="projects/01-click-counter">Click Counter</a></li>
             </ul>
           </div>
