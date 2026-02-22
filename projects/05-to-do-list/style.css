@@ -20,36 +20,43 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     color: #222222;
     background-color: #fff;
     height: 100%;
 }
 
-body.darkTheme {
-    background-color: #222222;
-    color: #bbb;
-}
-
 h1 {
     font-size: 20px;
-    margin: 20px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    height: 100%;
     gap: 10px;
-    width: 232px;
+    width: 100%;
+    max-width: 900px;
     padding: 20px;
-    border: 1px solid #cecece;
-    background-color: #e9e9e9;
 }
 
-.darkTheme .container {
-    border: 1px solid #777;
-    background-color: #444;   
+.todo {
+    display: flex;
+
+}
+
+input {
+    background-color: #fff;
+    border: 1px solid #cecece;
+    padding: 0 5px;
+    height: 40px;
+    border-right-color: transparent;
+    flex: 1;
+}
+
+input:focus {
+    outline: none;
+    border-color: #87c232
 }
 
 button {
@@ -57,11 +64,9 @@ button {
     background-color: #f0f0f0;
     border: 1px solid #cecece;
     transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.darkTheme button {
-    background-color: #555;
-    border: 1px solid #777;
+    width: 30%;
+    min-width: 100px;
+    max-width: 150px;
 }
 
 button:hover {
@@ -71,6 +76,43 @@ button:hover {
     color: #87c232
 }
 
-.darkTheme button:hover {
-    background-color: #666;
+.deleteBtn {
+    width: 40px;
+    min-width: auto;
+}
+
+.deleteBtn:hover {
+    border: 1px solid crimson;
+    color:crimson
+}
+
+p {
+    text-align: center;
+    color: #cecece;
+    padding: 20px;
+    border: 1px dotted #e5e5e5;
+}
+
+.hidden {
+    display: none;
+}
+
+li {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 10px;
+  background-color: #f5f5f5;
+  overflow-y: hidden;
+  height: 40px;
+}
+
+li span {
+    overflow-y: auto;
+}
+
+li + li {
+    margin-top: 10px;
 }
