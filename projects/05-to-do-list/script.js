@@ -18,8 +18,16 @@ function render() {
     tasks.forEach((task, index) => {
         const li = document.createElement("li");
 
+        const checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.checked = task.completed;
+
+        checkbox.addEventListener("change", () => toggleCompleted(index));
+
         const span = document.createElement("span");
-        span.textContent = task;
+        span.textContent = task.text;
+
+        span.classList.toggle("completed", task.completed);
 
         const btn = document.createElement("button");
         btn.textContent = "×";
@@ -27,7 +35,7 @@ function render() {
 
         btn.addEventListener("click", () => removeTask(index));
 
-        li.append(span, btn);
+        li.append(checkbox, span, btn);
         list.appendChild(li);
     });
 }
@@ -37,7 +45,10 @@ function addTask() {
 
     if (!value) return;
 
-    tasks.push(value);
+    tasks.push({
+        text: value,
+        completed: false
+    });
     input.value = "";
     input.focus();
 
@@ -49,6 +60,15 @@ function removeTask(index) {
     render();
 }
 
+function toggleCompleted(index) {
+    tasks[index].completed = !tasks[index].completed;
+    render();
+}
+
 addBtn.addEventListener("click", addTask);
+
+input.addEventListener("keypress", (e) => {
+    if (e.key === "Enter") addTask();
+});
 
 render();
