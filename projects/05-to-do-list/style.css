@@ -73,15 +73,34 @@ button:hover {
     color: #87c232
 }
 
+button.current {
+    color: #87c232;
+    cursor: default;
+    border-color: #87c232;
+}
+
 #addBtn {
+    background-color: #87c232;
+    color: #fff;
+    border-color: #87c232;
+    font-weight: bold;
     width: 30%;
     min-width: 100px;
     max-width: 150px;
 }
 
+#addBtn:hover {
+    background-color: #fff;
+    border: 1px solid #87c232;
+    cursor: pointer;
+    color: #87c232
+}
+
 .deleteBtn {
     width: 40px;
     min-width: 40px;
+    font-size: 18px;
+    border: 1px solid transparent;
 }
 
 .deleteBtn:hover {
@@ -89,15 +108,38 @@ button:hover {
     color:crimson
 }
 
-p {
+.filterBtn {
+    border: 0;
+    background-color: #fff;
+    height: auto;
+    text-decoration: underline;
+}
+
+.filterBtn:hover {
+    border: 0;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+p#message {
     text-align: center;
     color: #cecece;
     padding: 20px;
     border: 1px dotted #e5e5e5;
 }
 
+p#counter {
+    text-align: right;
+    color: #cecece;
+}
+
+#clearCompleted {
+    margin-right: auto;
+    padding: 0 20px;
+}
+
 .hidden {
-    display: none;
+    display: none!important;
 }
 
 li {
@@ -144,4 +186,13 @@ li input[type="checkbox"]:checked::after {
     top: -2px;
     left: 3px;
     font-size: 16px;
+    color: #87c232
+}
+
+.filters {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 40px;
+    gap: 20px
 }

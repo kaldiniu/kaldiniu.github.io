@@ -13,6 +13,13 @@
             <input type="text" id="taskInput" placeholder="Enter task">
             <button id="addBtn">Add</button>
         </div>
+        <div class="filters" id="filters">
+            <button id="clearCompleted">Delete completed</button>
+            <button data-filter="all" class="filterBtn current">All</button>
+            <button data-filter="active" class="filterBtn">Active</button>
+            <button data-filter="completed" class="filterBtn">Completed</button>
+        </div>
+        <p id="counter"></p>
         <p id="message">No tasks yet</p>
         <ul id="taskList"></ul>
     </div>
