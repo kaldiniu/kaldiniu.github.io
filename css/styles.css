@@ -499,7 +499,7 @@ body {
   color: var(--text2);
   counter-increment: item;
   position: relative;
-  padding-left: 2rem;
+  padding-left: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -984,6 +984,21 @@ body {
     flex-direction: row;
     gap: 0.5rem;
     white-space: nowrap;
+  }
+
+}
+
+@media print {
+  nav, footer, .button {
+    display: none!important;
+  }
+
+  .header {
+      position: static;
+  }
+
+  .right-pagesection {
+    padding: 1rem 0 1rem 2rem!important;
   }
 
 }
