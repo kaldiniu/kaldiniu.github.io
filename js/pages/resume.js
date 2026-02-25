@@ -12,7 +12,7 @@ export function renderResume() {
       </div>
       <div class="right-pagesection">
         <div class="section-wrapper">
-          <a href="./assets/pdf/resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
+          <a href="./assets/pdf/ki-resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
         </div>
       </div>
     </div>
