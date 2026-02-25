@@ -58,7 +58,6 @@ export function renderResume() {
             <li>CSS (Flexbox, Grid)</li>
             <li>JavaScript</li>
             <li>LESS / SASS</li>
-            <li>Bootstrap</li>
             <li>BEM Methodology</li>
             <li>Git / GitHub</li>
             <li>Webpack</li>
