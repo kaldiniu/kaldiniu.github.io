@@ -5,10 +5,22 @@ import { openPopup } from '../components/popup.js';
 const content = document.getElementById('content');
 export function renderResume() {
   content.innerHTML = `
+    <section class="row-section row-section__page">
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h1>${t('page.resume.menu')}</h1>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <a href="./assets/pdf/resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="row-section row-section__page">
     <div class="container main-container">
       <div class="left-pagesection">
-        <h1>${t('page.resume.about-header')}</h1>
+        <h2>${t('page.resume.about-header')}</h2>
       </div>
       <div class="right-pagesection">
         <div class="section-wrapper">

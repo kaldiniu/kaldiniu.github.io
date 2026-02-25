@@ -465,7 +465,7 @@ body {
   text-align: center;
 }
 
-.login-btn, .send-btn {
+.login-btn, .send-btn, .pdf-button {
   border: 2px solid var(--accent);
   background-color: var(--accent);
   color: var(--bg1);
@@ -477,7 +477,7 @@ body {
   text-transform: uppercase;
 }
 
-.login-btn:hover, .send-btn:hover {
+.login-btn:hover, .send-btn:hover, .pdf-button:hover {
   color: var(--accent);
   background-color: var(--bg1);
 }
