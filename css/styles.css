@@ -116,10 +116,6 @@ body {
   gap: 0.5rem;
 }
 
-.footer-container {
-  align-items: baseline
-}
-
 .header-container {
   position: relative;
 }
@@ -276,6 +272,22 @@ body {
 
 .footer-links a:hover {
   border-color: var(--accent);
+}
+
+.social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social .icon {
+  stroke: none;
+  fill: var(--textHide);
+  transition:fill 0.4s ease
+}
+
+.social .icon:hover {
+  stroke: none;
+  fill: var(--accent);
 }
 
 /* content */
@@ -851,8 +863,13 @@ body {
   .legal {
     margin: 0 0 0 auto;
   }
+
   .privacy {
     margin: 0 auto 0 3rem;
+  }
+
+  .social {
+    margin-right: 1rem
   }
 
   .row-section__page,
