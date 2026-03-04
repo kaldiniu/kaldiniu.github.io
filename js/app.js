@@ -64,7 +64,7 @@ setTimeout(hideSpinner, MAX_SPINNER_TIME);
 
 /* ---------- theme ---------- */
 function getTheme() {
-  return localStorage.getItem('theme') || 'light';
+  return localStorage.getItem('theme') || 'dark';
 }
 
 function setTheme(theme) {
