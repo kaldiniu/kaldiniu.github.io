@@ -105,7 +105,6 @@ export function renderResume() {
               <p class="resume-card__year">${t('page.resume.education.year-02')}</p>
               <h3>${t('page.resume.education.name-02')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-02')}</p>
-              <button class="popup-button-open button" data-src="${t('page.resume.education.doc-02')}">${t('page.resume.education.cert-02')}</button>
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-03')}</p>
