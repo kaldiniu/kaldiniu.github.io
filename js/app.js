@@ -43,7 +43,7 @@ const langButtons = document.querySelectorAll('[data-lang]');
 const themeToggle = document.getElementById('theme-toggle');
 const burger = document.getElementById('menu-toggle');
 const popupOpen = document.getElementById('popup-button-open');
-const popupClose = document.getElementById('popup-botton-close');
+const popupClose = document.getElementById('popup-button-close');
 const logoutBtn = document.getElementById('logout-btn');
 
 

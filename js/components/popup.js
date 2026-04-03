@@ -1,7 +1,7 @@
 // /js/components/popup.js
 const popupBg = document.getElementById('popup');
 const popupContent = document.getElementById('popup-content');
-const popupClose = document.getElementById('popup-botton-close');
+const popupClose = document.getElementById('popup-button-close');
 
 const ALLOWED_TAGS = ['B', 'STRONG', 'P', 'BR', 'EM', 'I'];
 
