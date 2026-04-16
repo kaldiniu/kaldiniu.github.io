@@ -817,6 +817,8 @@ body {
     padding: 1.5rem 3rem 1.5rem 2rem;
     background-color: var(--bg3);
     text-align: left;
+    align-items: center;
+    min-height: 5.25rem;
   }
 
   .nav-block {
