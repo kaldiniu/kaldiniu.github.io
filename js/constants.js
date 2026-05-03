@@ -9,9 +9,9 @@ export const AUTH_KEY = 'isAuth';
 export const LANG_KEY = 'lang';
 export const PROTECTED_PAGES = [
     //'home',
-    'resume',
-    'contacts',
-    'projects',
+    //'resume',
+    //'contacts',
+    //'projects',
     //'privacy',
     //'legal'
 ];
