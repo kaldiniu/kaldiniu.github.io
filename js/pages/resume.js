@@ -54,16 +54,15 @@ export function renderResume() {
       <div class="right-pagesection">
         <div class="section-wrapper">
           <ul class="resume-skills">
-            <li>HTML</li>
-            <li>CSS (Flexbox, Grid)</li>
-            <li>JavaScript</li>
+            <li>HTML + CSS (Flex, Grid)</li>
+            <li>JavaScript, SPA</li>
             <li>LESS / SASS</li>
             <li>BEM Methodology</li>
-            <li>Git / GitHub</li>
-            <li>Webpack</li>
-            <li>npm</li>
             <li>REST, JSON, Fetch</li>
-            <li>SPA</li>
+            <li>Python + SQL (Basic)</li>
+            <li>Java (Basic)</li>
+            <li>Git / GitHub / GitLab</li>
+            <li>Adobe Photoshop</li>
           </ul>
         </div>
       </div>
