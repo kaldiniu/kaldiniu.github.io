@@ -11,7 +11,7 @@ export const PROTECTED_PAGES = [
     //'home',
     //'resume',
     //'contacts',
-    //'projects',
+    'projects',
     //'privacy',
     //'legal'
 ];

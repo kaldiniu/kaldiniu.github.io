@@ -363,6 +363,14 @@ body {
   color: var(--text1);
 }
 
+.hero {
+    border: 3px solid var(--accent);
+    display:inline-block;
+    border-radius: 50%;
+    width: 100%;
+    max-width: 300px;
+}
+
 .typewriter {
   display: flex;
   flex-direction: column;
