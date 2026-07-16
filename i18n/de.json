@@ -134,7 +134,7 @@
     "title": "Zugriff eingeschränkt",
     "password": "Passwort eingeben",
     "submit": "Anmelden",
-    "text": "Geben Sie das Passwort ein, das Ihnen zusammen mit dem Website-Link per E-Mail zugesandt wurde.<br>Nach Eingabe des Passworts können Sie meine Informationen einsehen und meinen Lebenslauf herunterladen.",
+    "text": "Geben Sie das Passwort ein, das Ihnen zusammen mit dem Website-Link per E-Mail zugesandt wurde.",
     "error": "Falsches Passwort",
     "logout": "Abmelden"
   },

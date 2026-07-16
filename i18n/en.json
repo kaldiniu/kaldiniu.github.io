@@ -134,7 +134,7 @@
     "title": "Restricted Access",
     "password": "Enter password",
     "submit": "Login",
-    "text": "Enter the password you received together with the website link via email.<br>After entering the password, you will be able to view my information and download my resume.",
+    "text": "Enter the password you received together with the website link via email.",
     "error": "Wrong password",
     "logout": "Logout"
   },
