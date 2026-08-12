@@ -8,11 +8,12 @@ export function renderResume() {
     <section class="row-section row-section__page">
     <div class="container main-container">
       <div class="left-pagesection">
-        <h1>${t('page.resume.menu')}</h1>
+        <h1>${t('page.resume.doc-header')}</h1>
       </div>
       <div class="right-pagesection">
         <div class="section-wrapper">
           <a href="./assets/pdf/ki-resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
+          <a href="./assets/pdf/ki-report.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.report-download')}</a>
         </div>
       </div>
     </div>
@@ -99,6 +100,11 @@ export function renderResume() {
               <p class="resume-card__year">${t('page.resume.education.year-01')}</p>
               <h3>${t('page.resume.education.name-01')}</h3>
               <p class="resume-card__org">${t('page.resume.education.org-01')}</p>
+                      <!-- расскоментировать, когда Zwischenzeugnisse не будут меняться и когда поддготовлю изобрадение
+                      -------------------------------------------------------------------------------------------------
+                      <button class="popup-button-open button" data-src="${t('page.resume.education.doc-01')}">${t('page.resume.education.cert-01')}</button>
+                      -------------------------------------------------------------------------------------------------
+                      -->
             </section>
             <section class="resume-cards__item">
               <p class="resume-card__year">${t('page.resume.education.year-02')}</p>

@@ -177,6 +177,8 @@ body {
 }
 
 .link-to-main {
+  /* Был Breadcrumbs, потом переделал в кнопку закрыть*/
+  display: none;
   position:absolute;
   right: 0.5rem;
   top: calc(100% + 0.5rem);
@@ -503,6 +505,19 @@ body {
   text-transform: uppercase;
 }
 
+.pdf-button__alt {
+  border: 2px solid var(--text1);
+  background-color: var(--text1);
+  color: var(--bg1);
+}
+
+.pdf-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem 0
+}
+
 .login-btn:hover, .send-btn:hover, .pdf-button:hover {
   color: var(--accent);
   background-color: var(--bg1);
@@ -620,6 +635,15 @@ body {
 }
 
 @media (min-width: 400px) {
+  .pdf-button {
+    width: 49%;
+    max-width: 200px
+  }
+
+  .pdf-button__alt {
+    margin-left: 1rem
+  }
+
   .resume-list {
     grid-template-columns: repeat(2, 1fr)
   }
