@@ -27,7 +27,7 @@
       "download": "Lebenslauf",
       "report-download": "Zeugnisse",
       "about-header": "Über mich",
-      "about-text": "<strong>Umschüler zum Fachinformatiker (Anwendungsentwicklung)</strong> in Deutschland mit wirtschaftlichem Hintergrund. Ich wurde in der Ukraine geboren und seit 2022 lebe ich in Deutschland. Nach meinem Schulabschluss absolvierte ich eine berufliche Ausbildung und erlangte anschließend ein wirtschaftliches Hochschulstudium. Meine akademische Ausbildung umfasst einen Bachelorabschluss in Betriebswirtschaft sowie ein Diplom als Spezialist im Bereich Finanzen. Beide Abschlüsse sind in Deutschland offiziell anerkannt (Zeugnisbewertung für ausländische Hochschulabschlüsse). Nach mehreren Jahren Berufserfahrung als Ökonom und später als selbstständiger Content-Manager und Online-Marketing-Spezialist entschied ich mich für eine berufliche Neuorientierung im Bereich IT und Entwicklung.",
+      "about-text": "<strong>Umschüler zum Fachinformatiker (Anwendungsentwicklung)</strong> in Deutschland mit wirtschaftlichem Hintergrund. Ich wurde in Charkiw in der Ostukraine geboren und seit 2022 lebe ich in Deutschland. Nach meinem Schulabschluss absolvierte ich eine berufliche Ausbildung und erlangte anschließend ein wirtschaftliches Hochschulstudium. Meine akademische Ausbildung umfasst einen Bachelorabschluss in Betriebswirtschaft sowie ein Diplom als Spezialist im Bereich Finanzen. Beide Abschlüsse sind in Deutschland offiziell anerkannt (Zeugnisbewertung für ausländische Hochschulabschlüsse). Nach mehreren Jahren Berufserfahrung als Ökonom und später als selbstständiger Content-Manager und Online-Marketing-Spezialist entschied ich mich für eine berufliche Neuorientierung im Bereich IT und Entwicklung.",
       "lang-header": "Sprachen",
       "lang": {
         "01": "Deutsch",
@@ -39,6 +39,8 @@
         "04": "Ukrainisch",
         "04-level": "fließend"
       },
+      "actual-header": "Aktuell",
+      "training-header": "Weiterbildung",
       "education-header": "Ausbildung",
       "education": {
         "year-01": "01/2026 - bisher",
@@ -63,12 +65,12 @@
         "doc-04": "",
         "year-05": "2008 – 2009 (Ukraine)",
         "name-05": "Hochschulbildung (Spezialist – Finanzen)",
-        "org-05": "Charkiwer Nationale Universität für innere Angelegenheiten, Charkiw",
+        "org-05": "Nationale Universität für innere Angelegenheiten, Charkiw",
         "cert-05": "",
         "doc-05": "",
         "year-06": "2004 – 2008 (Ukraine)",
         "name-06": "Hochschulbildung (Bachelor – Betriebswirtschaft)",
-        "org-06": "Charkiwer Nationale Universität für innere Angelegenheiten, Charkiw",
+        "org-06": "Nationale Universität für innere Angelegenheiten, Charkiw",
         "cert-06": "Zeugnisbewertung",
         "doc-06": "./assets/images/certificate-06.jpg"
       },
@@ -97,7 +99,7 @@
         "01": "Fussball",
         "02": "Skifahren",
         "03": "Rockkonzerte",
-        "04": "CD-Sammeln"
+        "04": "CD Sammeln"
       }
     },
     "contacts": {

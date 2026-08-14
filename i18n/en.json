@@ -27,7 +27,7 @@
       "download": "Resume",
       "report-download": "Report",
       "about-header": "About Me",
-      "about-text": "<strong>Trainee software developer (application development)</strong> in Germany with an economic background. I was born in Ukraine and have been living in Germany since 2022. After finishing school, I completed vocational training and later obtained a university degree in economics. My academic education includes a Bachelor's degree in Business Administration and a Specialist diploma in Finance. Both degrees are officially recognized in Germany. After several years of professional experience as an economist and later as a self-employed content manager and online marketing specialist, I decided to change my career path towards IT and software development.",
+      "about-text": "<strong>Trainee software developer (application development)</strong> in Germany with an economic background. I was born in Kharkiv in eastern Ukraine and have been living in Germany since 2022. After finishing school, I completed vocational training and later obtained a university degree in economics. My academic education includes a Bachelor's degree in Business Administration and a Specialist diploma in Finance. Both degrees are officially recognized in Germany. After several years of professional experience as an economist and later as a self-employed content manager and online marketing specialist, I decided to change my career path towards IT and software development.",
       "lang-header": "Languages",
       "lang": {
         "01": "German",
@@ -39,6 +39,8 @@
         "04": "Ukrainian",
         "04-level": "Fluent"
       },
+      "actual-header": "Actual",
+      "training-header": "Courses",
       "education-header": "Education",
       "education": {
         "year-01": "01/2026 - present",
@@ -63,12 +65,12 @@
         "doc-04": "",
         "year-05": "2008 – 2009 (Ukraine)",
         "name-05": "Higher Education (Specialist – Finance)",
-        "org-05": "Kharkiv National University of Internal Affairs, Kharkiv",
+        "org-05": "National University of Internal Affairs, Kharkiv",
         "cert-05": "",
         "doc-05": "",
         "year-06": "2004 – 2008 (Ukraine)",
         "name-06": "Higher Education (Bachelor – Business Administration)",
-        "org-06": "Kharkiv National University of Internal Affairs, Kharkiv",
+        "org-06": "National University of Internal Affairs, Kharkiv",
         "cert-06": "Degree Recognition",
         "doc-06": "./assets/images/certificate-06.jpg"
       },
