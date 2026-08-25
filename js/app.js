@@ -31,6 +31,7 @@ const PAGE_RENDERERS = {
 };
 
 /* ---------- elements ---------- */
+const header = document.getElementById('header');
 const spinner = document.getElementById('spinner');
 const menu = document.getElementById('menu');
 const navEl = document.getElementById('nav');
@@ -46,7 +47,6 @@ const popupOpen = document.getElementById('popup-button-open');
 const popupClose = document.getElementById('popup-button-close');
 const logoutBtn = document.getElementById('logout-btn');
 
-
 /* ---------- spinner ---------- */
 const MIN_SPINNER_TIME = 300;
 const MAX_SPINNER_TIME = 2000;
@@ -61,6 +61,14 @@ function hideSpinner() {
 }
 
 setTimeout(hideSpinner, MAX_SPINNER_TIME);
+
+/* ---------- header ---------- */
+const updateHeader = () => {
+  header.classList.toggle('is-scrolled', window.scrollY > 10);
+};
+
+window.addEventListener('scroll', updateHeader, { passive: true });
+updateHeader();
 
 /* ---------- theme ---------- */
 function getTheme() {

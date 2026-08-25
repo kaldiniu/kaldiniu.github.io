@@ -215,6 +215,19 @@ export function renderResume() {
       </div>
     </div>
   </section>
+    <section class="row-section row-section__page">
+    <div class="container main-container">
+      <div class="left-pagesection">
+        <h1>${t('page.resume.doc-header')}</h1>
+      </div>
+      <div class="right-pagesection">
+        <div class="section-wrapper">
+          <a href="./assets/pdf/kaldiniu-resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
+          <a href="./assets/pdf/kaldiniu-report.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.report-download')}</a>
+        </div>
+      </div>
+    </div>
+  </section>
   `;
 
     content.onclick = e => {

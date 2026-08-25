@@ -7,7 +7,9 @@ export function renderHome() {
         <div class="container main-container">
           <div class="left-pagesection">
             <!-- <h1 class="logo logo__home">${t('logo-alt')}</h1> -->
-            <img class="hero" src="../assets/images/hero.jpg">
+            <div class="avatar">
+              <img class="hero" src="../assets/images/hero.jpg">
+            </div>
           </div>
           <div class="right-pagesection">
             <div class="section-wrapper">
