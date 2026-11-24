@@ -686,11 +686,17 @@ body {
 @media (min-width: 500px) {
   .pdf-button {
     width: 49%;
-    max-width: 200px
+    max-width: 135px
   }
 
   .pdf-button__alt {
-    margin-left: 1rem
+    margin-left: 1rem;
+    margin-right: 1rem
+  }
+
+  .pdf-button__alt + .pdf-button__alt {
+    margin-left: 0rem;
+    margin-right: 0rem
   }
 
   .typewriter {

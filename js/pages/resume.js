@@ -14,6 +14,7 @@ export function renderResume() {
         <div class="section-wrapper">
           <a href="./assets/pdf/kaldiniu-resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
           <a href="./assets/pdf/kaldiniu-report.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.report-download')}</a>
+          <a href="./assets/pdf/kaldiniu-python.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.python-download')}</a>
         </div>
       </div>
     </div>
@@ -224,6 +225,7 @@ export function renderResume() {
         <div class="section-wrapper">
           <a href="./assets/pdf/kaldiniu-resume.pdf" target="_blank" class="button pdf-button">${t('page.resume.download')}</a>
           <a href="./assets/pdf/kaldiniu-report.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.report-download')}</a>
+          <a href="./assets/pdf/kaldiniu-python.pdf" target="_blank" class="button pdf-button pdf-button__alt">${t('page.resume.python-download')}</a>
         </div>
       </div>
     </div>
