@@ -326,6 +326,7 @@ body {
   background-color: var(--bg2);
   flex: 1;
   padding: 1rem 2rem;
+  min-height: 200px;
 }
 
 .row-section__page h1,
